@@ -1,0 +1,71 @@
+{
+  "name": "iMakeIt! - Platforma Edukacyjna dla Przedsiębiorców",
+  "short_name": "iMakeIt!",
+  "description": "Zaawansowana platforma łącząca zarządzanie projektami, śledzenie nawyków i edukację biznesową",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0f0f23",
+  "theme_color": "#3b82f6",
+  "orientation": "portrait-primary",
+  "categories": ["business", "education", "productivity"],
+  "lang": "pl",
+  "scope": "/",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512.png", 
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/screenshot-wide.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide"
+    },
+    {
+      "src": "/screenshot-narrow.png", 
+      "sizes": "750x1334",
+      "type": "image/png",
+      "form_factor": "narrow"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Dashboard",
+      "short_name": "Dashboard",
+      "description": "Przejdź do głównego dashboardu",
+      "url": "/dashboard",
+      "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Projekty",
+      "short_name": "Projekty", 
+      "description": "Zarządzaj swoimi projektami",
+      "url": "/projects",
+      "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Nawyki",
+      "short_name": "Nawyki",
+      "description": "Śledź swoje nawyki",
+      "url": "/habits", 
+      "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Edukacja",
+      "short_name": "Edukacja",
+      "description": "Przeglądaj kursy edukacyjne",
+      "url": "/education",
+      "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }]
+    }
+  ]
+}
