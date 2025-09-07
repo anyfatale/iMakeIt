@@ -1,6 +1,6 @@
 # iMakeIt! - Zaawansowana Platforma Edukacyjna dla Przedsiębiorców
 
-Link: https://imakeit-frontend.lovable.app/
+Link: https://imakeit.vercel.app/
 
 ![iMakeIt! Logo](public/icon-512.png)
 
